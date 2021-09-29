@@ -1,0 +1,21 @@
+#Known formula 3N+1 = Write a Python program where 
+#you take any positive integer n, if n is even, 
+#divide it by 2 to get n / 2. If n is odd, multiply 
+#it by 3 and add 1 to obtain 3n + 1. Repeat the process 
+#until you reach 1.
+
+# num1 = 5
+
+def xyz(num1):
+	n=num1
+	while n !=1:
+		print (n)
+		if (n % 2) == 0: #if num1 even
+			n = int(n/2)
+		else: #if num1 odd
+			n =int(3*n+1)
+	return n
+	
+#a = input("Enter a number from 1 to 9 : ")
+#if a<
+print (xyz(7))
